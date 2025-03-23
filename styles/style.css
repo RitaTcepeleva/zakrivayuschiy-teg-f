@@ -258,8 +258,7 @@
 
 .main__save-button::after,
 .card__like-button::after,
-.main__dialog-close-button::after
-{
+.main__dialog-close-button::after {
   content: '';
   position: absolute;
   inset: 0;
@@ -279,8 +278,7 @@
 
 .main__save-button:hover::after,
 .card__like-button:hover::after,
-.main__dialog-close-button:hover::after
-{
+.main__dialog-close-button:hover::after {
   transform: scaleX(1);
 }
 
