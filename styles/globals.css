@@ -35,6 +35,13 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  border: none;
+  background-color: var(--default-bg-color);
+  padding: 0;
+}
+
+button:focus, button:focus-visible {
+  outline: none;
 }
 
 ul,

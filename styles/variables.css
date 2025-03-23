@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: 'Inter', sans-serif;
+    --accent-font: 'Press-Start-2P', sans-serif;
+    --main-font-weight: 400;
+    --bold-font-weight: 700;
+    --main-font-size: 18px;
+    --small-font-size: 14px;
+    --header-main-title-font-size: clamp(3.0625rem, 2.4847rem + 2.4653vw, 4.0625rem); /* generate through https://clamp.font-size.app/ using following params: min/max viewport width 375/1024 & min/max font size 49/65*/
+    --header-sub-title-font-size: clamp(0.875rem, 0.55rem + 1.3867vw, 1.4375rem); /* generate through https://clamp.font-size.app/ using following params: min/max viewport width 375/1024 & min/max font size 14/23*/
+    --accent-color: #000;
+    --default-border-value: 2px solid var(--accent-color);
+    --default-bg-color: #fff;
+    --main-gradient:
+        repeating-linear-gradient(90deg, #d3d3d3 2px, #d3d3d3 4px, transparent 6px, transparent 8px),
+        repeating-linear-gradient(#d3d3d3 2px, #d3d3d3 4px, transparent 6px, transparent 8px),
+        linear-gradient(#e7e7e7 0.01%, #e7e7e7, #1a1a1a);
+
+    --contour-color: #000;
+    --animation-fill-color: #f00;
+}
